@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+@import url("https://use.typekit.net/jnv5djy.css");
+
+body{
+	font-family: juniper-std, sans-serif;
+font-weight: 400;
+font-style: normal;
+background-color: #FAFF00;
+
+}
+
+p{
+  font-size: 18px;
+  font-family: arial;
+}
+
+.tabs{
+	overflow: hidden;
+	color: black;
+
+}
+
+.tabs a {
+  float: right;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  color: black;
+  padding: 35px 22px;
+  margin: 0;
+  right: 50px;
+  bottom: -17px;
+
+}
+
+.tabs a:hover {
+	background-color: none;
+	text-decoration:underline;
+	color: black;
+}
+.tabs a.active {
+  background-color:none;
+  text-decoration:underline;
+}
+
+
+h1{
+  position: relative;
+    left:70px;
+    font-size: 72px;
+}
+
+.movie-container{
+  padding: 3rem;
+  margin: 1rem;
+
+}
+
+.coverwrap{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+img{
+  width: 200px;
+  height: auto;
+}
